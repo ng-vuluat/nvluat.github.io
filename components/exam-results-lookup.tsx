@@ -71,7 +71,6 @@ export default function ExamResultsLookup() {
             <p>
               Nhập Số báo danh của anh/chị để tra cứu kết quả (7 chữ số).
               <br />
-              Ví dụ: 2412345
             </p>
           </div>
 
@@ -85,7 +84,7 @@ export default function ExamResultsLookup() {
                   const value = e.target.value.replace(/[^\d]/g, "")
                   setSbd(value)
                 }}
-                placeholder="Nhập số báo danh (VD: 2501016)"
+                placeholder="Nhập số báo danh (VD: 2412345)"
                 required
                 className="pl-10 bg-white border-[#123363] focus:ring-[#bea258] focus:border-[#bea258]"
               />
