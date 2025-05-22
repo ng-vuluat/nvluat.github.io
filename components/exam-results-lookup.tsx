@@ -69,9 +69,9 @@ export default function ExamResultsLookup() {
           <div className="bg-blue-50 p-3 rounded-md mb-4 text-sm text-[#123363] flex items-start gap-2">
             <Info className="h-5 w-5 text-[#123363] mt-0.5 flex-shrink-0" />
             <p>
-              Nhập số báo danh của bạn để tra cứu kết quả.
+              Nhập Số báo danh của anh/chị để tra cứu kết quả (7 chữ số).
               <br />
-              Ví dụ: 2501017
+              Ví dụ: 2412345
             </p>
           </div>
 
